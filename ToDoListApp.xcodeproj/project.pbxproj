@@ -16,6 +16,7 @@
 		E3046F45272954EE0081BA21 /* ToDoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3046F44272954EE0081BA21 /* ToDoListAppTests.swift */; };
 		E3046F4F272954EE0081BA21 /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3046F4E272954EE0081BA21 /* ToDoListAppUITests.swift */; };
 		E3046F51272954EE0081BA21 /* ToDoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3046F50272954EE0081BA21 /* ToDoListAppUITestsLaunchTests.swift */; };
+		E3046F5E2729597F0081BA21 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3046F5D2729597F0081BA21 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E3046F4A272954EE0081BA21 /* ToDoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3046F4E272954EE0081BA21 /* ToDoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITests.swift; sourceTree = "<group>"; };
 		E3046F50272954EE0081BA21 /* ToDoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3046F5D2729597F0081BA21 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				E3046F2E272954ED0081BA21 /* ToDoListAppApp.swift */,
 				E3046F30272954ED0081BA21 /* ContentView.swift */,
+				E3046F5D2729597F0081BA21 /* File.swift */,
 				E3046F32272954EE0081BA21 /* Assets.xcassets */,
 				E3046F37272954EE0081BA21 /* Persistence.swift */,
 				E3046F39272954EE0081BA21 /* ToDoListApp.xcdatamodeld */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3046F5E2729597F0081BA21 /* File.swift in Sources */,
 				E3046F38272954EE0081BA21 /* Persistence.swift in Sources */,
 				E3046F31272954ED0081BA21 /* ContentView.swift in Sources */,
 				E3046F2F272954ED0081BA21 /* ToDoListAppApp.swift in Sources */,
